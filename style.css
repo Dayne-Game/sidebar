@@ -39,9 +39,36 @@ body {
 .contact {
     display: block;
     position: absolute;
-    text-align: right;
     text-decoration: none;
+    text-align: right;
     bottom: 0;
     right: 0;
     margin: 0px 20px 20px 0px;
+}
+
+@media screen and (max-width:768px) {
+    .menu {
+        height: 70px;
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+    }
+    .contact {
+        line-height: 30px;
+    }
+    .link-box {
+        text-align: center;
+        margin: 0;
+    }
+    a {
+        display: block;
+    }
+    .logo {
+        height: 50px;
+        width: 50px;
+        float: left;
+    }
 }
